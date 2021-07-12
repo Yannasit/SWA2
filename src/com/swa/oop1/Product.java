@@ -3,6 +3,7 @@ package com.swa.oop1;
 public class Product {
 	  private String productID;
 	    private String productName;
+	    
 	    Product(String p_id, String p_name){
 	      productID = p_id;
 	      productName = p_name;
@@ -12,3 +13,4 @@ public class Product {
 	    }
 
 }
+
