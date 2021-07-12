@@ -3,17 +3,12 @@ package com.swa.oop1;
 public class Product {
 	  private String productID;
 	    private String productName;
-	    
-	    Product(String pid, String pname){
-	      productID = pid;
-	      productName = pname;
+	    Product(String p_id, String p_name){
+	      productID = p_id;
+	      productName = p_name;
 	    }
-	    public String getDetail(){
+	    public String getDetailProduct(){
 	      return "Product ID : "+productID+" and Product Name : "+productName;
 	    }
 
 }
-
-
-
-
